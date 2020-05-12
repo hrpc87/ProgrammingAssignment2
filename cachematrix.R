@@ -1,7 +1,9 @@
-## Put comments here that give an overall description of what your
-## functions do
+## Assignment: Caching the Inverse of a Matrix
+## The intention of this functions are to create a "special" matrix that
+## cache its inverse
 
-## Write a short comment describing this function
+## This function cache set ang get the value of the matrix
+## also set and get the inverse of the matrix
 
 makeCacheMatrix <- function(x = matrix()) {
         m <- NULL
@@ -19,7 +21,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## The function calcultes the inverse of the matrix returned by makeCacheMatrix
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
